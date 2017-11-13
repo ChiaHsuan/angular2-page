@@ -75,7 +75,7 @@ export var configs = {
     ],
     leftBottom: [
         {
-            type: "donut",
+            type: "pie",
             url: "./assets/data/GY_Gender_Describe.json",
             title: "User Persona",
             x: "AREA",
@@ -102,19 +102,6 @@ export var configs = {
                 });
 
                 return top5;
-            }
-        },
-        {
-            type: "donut",
-            url: "./assets/data/GY_Gender_Describe.json",
-            title: "User Persona",
-            x: "Gender",
-            y: ["count_Gender"],
-            legends: ["People"],
-            donutTitle: "Gender",
-            preprocess: true,
-            callback: function(d){
-                 return d[1];
             }
         }
     ],

@@ -102,7 +102,7 @@ export class C3Component implements DynamicInterfaceComponent, OnInit{
               }
           };
           break;
-        case "donut":
+        case "pie":
           let donutData = this._formatDonut(data.jsonArr, data.x, data.y);
           config = {
               bindto: '#'+data.id,

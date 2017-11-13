@@ -16,7 +16,7 @@ export class AppComponent implements OnInit{
   public constructor(private titleService: Title, private stock: DataStoreService ) { }
 
   public setTitle( newTitle: string) {
-    this.titleService.setTitle("富學寶典");
+    this.titleService.setTitle("Demo Site");
   }
 
   ngOnInit() {
