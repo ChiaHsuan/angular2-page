@@ -1,0 +1,30 @@
+<!--This Initial View structure-->
+<div class="wrapper">
+  <!--Up-->
+  <div class="flex-display-row top">
+    <div class="flex-grow-1">
+        <dynamic [componentData]="siteData" [controlHidden]="true"></dynamic>
+    </div>
+    <div class="flex-grow-2 flex-display-row">
+      <!-- component data loads data -->
+        <dynamic class="flex-grow-1" [componentData]="centerTopData" [controlHidden]="true"></dynamic>
+        <dynamic class="flex-grow-1" [componentData]="centerTopData2" [controlHidden]="true"></dynamic>
+        <dynamic class="flex-grow-1" [componentData]="centerTopData3" [controlHidden]="true"></dynamic>
+    </div>
+    <logo class="flex-grow-1" routerLink="/demo" routerLinkActive="active"></logo>
+  </div>
+  <!--Bottom-->
+  <div class="flex-display-row bottom">
+    <div class="flex-grow-1 flex-display-column box-100">
+      <dynamic class="parent box-100 flex-grow-1" [componentData]="leftTopData" [duration]="2000"></dynamic>
+      <dynamic class="parent box-100 flex-grow-1" [componentData]="leftBottomData" [duration]="2000"></dynamic>
+    </div>
+    <div class="flex-grow-2 flex-display-row box-100">
+      <dynamic class="parent box-100" [componentData]="middleData" [duration]="2000"></dynamic>
+    </div>
+    <div class="flex-grow-1 flex-display-column">
+      <dynamic class="parent box-100 flex-grow-1" [componentData]="rightTopData" [duration]="2000"></dynamic>
+      <dynamic class="parent box-100 flex-grow-1" [componentData]="rightBottomData" [duration]="2000"></dynamic>
+    </div>
+  </div>
+</div>
