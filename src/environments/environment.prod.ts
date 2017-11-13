@@ -1,7 +1,6 @@
 
 export const environment = {
-    
-    production: false,
+    production: true,
     stableZeppelin: {
         operation: "./assets/zeppelin-data/FirstBoard/stable/",
         student: "./assets/zeppelin-data/SecondBoard/2017-03-18T03:12:28.967Z/",
