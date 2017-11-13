@@ -27,7 +27,7 @@ export var configs = {
             url: environment.stableZeppelin.student + "top-numbers.csv",
             title: "Average Score",
             value: "avgScore",
-            unit: ""
+            unit: "score"
         }
     ],
     centerTop3:[

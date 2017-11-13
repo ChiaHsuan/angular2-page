@@ -18,7 +18,7 @@ export var configs = {
             url: environment.dataBase + "LearnInfoByDateAndGroup.json",
             title: "Activity User",
             value: "NewUser",
-            unit: "",
+            unit: "unit",
         },
         {
             type: "number-board",
@@ -46,14 +46,14 @@ export var configs = {
             url: environment.stableZeppelin.operation + "top-numbers.csv",
             title: "Some Data",
             value: "totalLesson",
-            unit: ""
+            unit: "unit"
         },
         {
             type: "number-board",
             url: environment.stableZeppelin.operation + "top-numbers.csv",
             title: "Some Data",
             value: "monthlyNewLesson",
-            unit: "件"
+            unit: "unit"
         }
     ],
     leftTop: [
