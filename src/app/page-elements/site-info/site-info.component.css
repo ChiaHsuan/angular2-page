@@ -15,17 +15,6 @@
     border-bottom: 1px solid #ededed;
 }
 
-@media screen and (max-width:1024px){
-    .siteName-lable{
-        font-size: 1rem;
-    }
-    .siteName-title{
-        font-size: 1.5rem;
-    }
-    .site-data{
-        font-size: 1rem;        
-    }
-}
 .siteName-data{
     font-size: 2.5rem;
     text-align: center;
@@ -46,14 +35,68 @@
     text-shadow: 2px 2px 5px #fcf641;
 }
 
-@media screen and (max-height: 700px) {
-    .site-name{
-        font-size: 2rem;
+@media screen and (max-width: 400px) {
+    .siteName-title{
+        font-size: 1.5rem;
+    }
+    .siteName-lable{
+        font-size: 1rem;
+    }
+    
+    .siteName-data{
+        font-size: 1.5rem;
     }
     .site-subname{
-        font-size: 1.2rem;
+        font-size: 1rem;
+
     }
     .site-data{
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-height: 500px) {
+    .site-wrapper{
+        margin: 0;
+    }
+    .siteName-title{
+        font-size: 1.5rem;
+    }
+    .siteName-lable{
+        font-size: 1rem;
+    }
+    
+    .siteName-data{
+        font-size: 1.5rem;
+    }
+    .site-subname{
+        font-size: 1rem;
+
+    }
+    .site-data{
+        font-size: 1.5rem;
     }
 }
+@media screen and (min-width:401px) and (max-width: 1024px) {
+    .site-wrapper{
+        margin: 0;
+    }
+    .siteName-title{
+        font-size: 1.5rem;
+    }
+    .siteName-lable{
+        font-size: 1rem;
+    }
+    
+    .siteName-data{
+        font-size: 1.5rem;
+    }
+    .site-subname{
+        font-size: 1rem;
+
+    }
+    .site-data{
+        font-size: 1.5rem;
+    }
+}
+    

@@ -85,10 +85,10 @@ export var configs = {
             callback: function(d){
                 /**
                  * d is like
-                 * 0: BG, 1 is Gender, 2 is AREA
+                 * 0 is Gender, 1 is AREA
                  * [ [],[],[],[],[] ]
                  */
-                 let area = d[2];
+                 let area = d[1];
                  let top5 = area.slice(0,5);
                  let remaining = area.slice(5, area.length).reduce((a,b)=> {
                         return {
@@ -106,11 +106,11 @@ export var configs = {
         }
     ],
     middle: [
-        {
-            type: "iframe",
-            url: "http://treeqqq.com/map",
-            title: "Map iframe example"
-        },
+        // {
+        //     type: "iframe",
+        //     url: "http://treeqqq.com/map",
+        //     title: "Map iframe example"
+        // },
         {
             type: "timeseries",
             url: environment.dataBase + "LearnInfoByDateAndGroup.json",
